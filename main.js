@@ -18,7 +18,6 @@ function startTimer(){
             
         let formattedMs = (ms.innerText < 9) ? '0' + mSec : mSec;
 
-
         ms.innerText = formattedMs;
     
         if (mSec >= 990) {
