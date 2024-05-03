@@ -93,7 +93,7 @@ body{
     }
     
     .display-time{
-        box-shadow:  -1px -1px 4px rgb(142, 141, 141) ,3px 3px 10px rgb(93, 92, 92);
+        box-shadow:  -1px -1px 4px rgb(141, 141, 141) ,3px 3px 10px rgb(93, 92, 92);
         padding-inline: auto;  
         height: 15vh; 
     }
