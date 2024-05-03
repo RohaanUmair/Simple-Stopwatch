@@ -72,11 +72,55 @@ body{
     background-color: red;
 }
 .btns #reset-btn{
-    background-color: orangered;
+    background-color: rgb(255, 136, 0);
 }
 
 .btns #start-btn:active,
 .btns #stop-btn:active,
 .btns #reset-btn:active{
     scale: 0.95;
+}
+
+
+
+
+@media (max-width: 420px) {
+    .box{
+        width: 80dvw;
+        min-height: 500px;
+        max-height: 70dvh;
+        padding-bottom: 0;
+    }
+    
+    .display-time{
+        box-shadow:  -1px -1px 4px rgb(142, 141, 141) ,3px 3px 10px rgb(93, 92, 92);
+        padding-inline: auto;  
+        height: 15vh; 
+    }
+
+    .display-time h1{
+        font-size: 30px;
+        margin: auto;
+    }
+
+    .display-time span{
+        font-size: 30px;
+    }
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+    }
+
+    .btns #start-btn,
+    .btns #stop-btn,
+    .btns #reset-btn{
+        height: 1.4cm;
+        width: 5.6cm;
+    }
+
+    .display-time #ms{
+        width: 150px;
+    }
 }
